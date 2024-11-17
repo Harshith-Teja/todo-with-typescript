@@ -1,4 +1,3 @@
-import ListItem from "../model/ListItem";
 import FullList from "../model/FullList";
 
 interface DOMList {
