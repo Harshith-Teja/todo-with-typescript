@@ -26,7 +26,7 @@ export default class FullList implements List {
     const parsedList: { _id: string; _item: string; _checked: boolean }[] =
       JSON.parse(storedList);
 
-    parsedList.map((itemObj) => {
+    parsedList.forEach((itemObj) => {
       const newListIem = new ListItem(
         itemObj._id,
         itemObj._item,
